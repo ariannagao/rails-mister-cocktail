@@ -1,0 +1,9 @@
+<div class="show-banner col-12">
+<h2 class="cocktailh2"><%= @cocktail.name %></h2>
+<% @cocktail.doses.each do |dose| %>
+  <%= dose.description %>
+<% end %>
+<%= link_to "+",  new_cocktail_dose_path(@cocktail), class:"dose" %>
+<%= link_to "<=", cocktails_path, class:"dose" %>
+<%= link_to "delete", cocktail_dose_path(@cocktail), class:"dose"%>
+</div>

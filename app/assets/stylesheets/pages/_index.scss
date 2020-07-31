@@ -1,0 +1,41 @@
+// Import page-specific CSS files here.
+@import "home";
+
+h2{
+
+  font-family:'Titillium Web', sans-serif;
+  font-size:bolded;
+}
+.index-banner{
+  background-image: url(https://images.unsplash.com/photo-1506712465535-e301badbc49d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+  background-size: cover;
+  height: 100vh;
+  color: #eee;
+  text-shadow: 3px 3px #15F4EE;
+  text-align: center;
+  padding-top: 40vh;
+  font-size: 32px;
+  font-family:'Titillium Web', sans-serif;
+}
+
+ul{
+  padding-left: 0;
+}
+
+li{
+  list-style:none;
+  text-color: #eee;
+}
+
+.btn-brown{
+
+  font-family:none;
+    border-radius: 50%;
+    color: #000;
+    background-color: #eee;
+    padding: 6px 16px 7px 16px;
+}
+.btn-brown:hover{
+    text-decoration: none;
+    color:#ff0a47;
+}

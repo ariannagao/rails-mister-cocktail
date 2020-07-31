@@ -1,0 +1,22 @@
+// Specific CSS for your home-page
+.btn {
+  background-color: #894c16;
+  color: #006400;
+  border: none;
+  padding: 8px 20px 8px 20px;
+  border-radius: 7px;
+  text-shadow: 3px #228B22;
+  margin: 35px;
+  border-color: #006400;
+  opacity:0.85;
+  font-size: 25px;
+
+}
+
+.btn:hover{
+  color: #006400;
+  font-size: 30px;
+  padding: 7px 17px 7px 17px;
+  background-color: #faed27;
+  opacity:0.6;
+}
