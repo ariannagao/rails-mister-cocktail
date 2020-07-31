@@ -1,10 +1,43 @@
 .home-banner {
-  background-image: url('https://images.unsplash.com/photo-1510626176961-4b57d4fbad03?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
+  background-image: url(https://res.cloudinary.com/dszrhme45/image/upload/v1596167740/photo-1535045519217-79ea59ee90f3_hfbofk.jpg);
+  background-position: center;
   background-size: cover;
   height: 100vh;
-  color: #eee;
-  text-shadow: 3px 3px #006400;
+  color: #944C09;
+  text-shadow: 4px 4px #89f56b;
   text-align: center;
-  padding-top: 40vh;
   font-size: 32px;
+  padding:320px;
+}
+
+.home-banner-btn{
+  background-color:#89f56b;
+  margin-top: 60px;
+  border-radius:5px;
+  text-decoration:none;
+  color:#fff;
+  padding:6px 8px 6px 8px;
+  font-size: 24px;
+  opacity: 0.5;
+
+}
+
+.home-banner-btn:hover {
+  text-decoration:none;
+  opacity: 0.8;
+  color:white;
+
+}
+.index-banner {
+
+}
+
+.index-list{
+  margin-top: 70px;
+}
+.index-list:hover{
+  text-decoration:none;
+}
+.btn-brown{
+  padding-top:30px;
 }

@@ -1,11 +1,8 @@
-<div class="home-banner col-12">
-  <h1><span id="banner-typed-text">Fancy a Drink??</span></h1>
-  <%= link_to "Cocktails", cocktails_path, class: "btn" %>
+<div class="col-12 home-banner">
+  <h1 class="home-banner-text"><span >Fancy a Drink??</span></h1>
+  <%= link_to "click me;)", cocktails_path, class: "home-banner-btn"%>
 </div>
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-6">
 
-    </div>
-  </div>
-</div>
+<script src="main.js"></script>
+<%= javascript_pack_tag 'listener'%>
+
